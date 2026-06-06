@@ -1,9 +1,9 @@
 # Auto scaling and Load balancer
 
 # AWS Services used
-auto scaling group
-template
-load balancer
+1. auto scaling group
+2. template
+3. load balancer
 
 # Key Features
 **High Availability**: Resources are deployed across multiple Availability Zones to ensure fault tolerance.
