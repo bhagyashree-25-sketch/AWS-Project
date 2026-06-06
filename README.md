@@ -1,4 +1,5 @@
 # Auto scaling and Load balancer
+
 # AWS Services used
 auto scaling group
 template
