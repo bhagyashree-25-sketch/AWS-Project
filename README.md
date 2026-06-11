@@ -6,11 +6,10 @@
 3. load balancer
 
 # Key Features
-1. **High Availability**: Resources are deployed across multiple Availability Zones to ensure fault tolerance.
-2. **Dynamic Scaling**: Automatically adjusts the number of EC2 instances based on traffic load (e.g., CPU utilization).
-3. **Load Distribution**: Evenly distributes traffic across all healthy instances using an ALB.
-4. **Health Checks**: Automatically detects and replaces unhealthy instances to ensure end-users are never routed to a failing server.
-5. **Cost Optimization**: Scales down during off-peak hours, ensuring you only pay for the compute resources you actually need.
+1. **Dynamic Scaling**: Automatically adjusts the number of EC2 instances based on traffic load (e.g., CPU utilization).
+2. **Load Distribution**: Evenly distributes traffic across all healthy instances using an ALB.
+3. **Health Checks**: Automatically detects and replaces unhealthy instances to ensure end-users are never routed to a failing server.
+4. **Cost Optimization**: Scales down during off-peak hours, ensuring you only pay for the compute resources you actually need.
 
  # Deployment Steps
 1. **Create a Launch Template**: Select an Amazon Machine Image (AMI) (e.g., Amazon Linux 2023). Choose an instance type (e.g., t2.micro for Free Tier). Add a User Data script to install and start your web server (e.g., Nginx or Apache).
