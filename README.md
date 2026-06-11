@@ -1,4 +1,4 @@
-# Auto scaling and Load balancer
+# Auto scaling webserver with Load balancer
 
 # AWS Services used
 1. auto scaling group
